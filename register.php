@@ -204,7 +204,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <option value="">Select Account Type</option>
                     <option value="citizen">Citizen</option>
                     <option value="police">Police Officer</option>
-                    <option value="admin">Administrator</option>
                 </select>
             </div>
 

@@ -25,15 +25,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['role'] !== 'admin') {
 </body>
 </html>
 <?php
-// Start a session
-session_start();
 
-// Check if the user is logged in and is an admin
-if (!isset($_SESSION['loggedin']) || $_SESSION['role'] !== 'admin') {
-    // Redirect to the login page if not
-    header("Location: login.php");
-    exit();
-}
 
 // Include the database connection file
 require_once 'db_connect.php';
